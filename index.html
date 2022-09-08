@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.1/js/bootstrap.min.js">
 </head>
 <body>
     <div class="wrapper">
@@ -22,7 +23,7 @@
             <div class="sidebar-main">
                 <div class="account">
                     <img src="./assets/img/account-img.jpg" alt="" class="account__img">
-                    <span class="account__name">Michealla</span>
+                    <span class="account__name">Hoàng Ngân <i class="HN-icon fa-solid fa-heart"></i></span>
                 </div>
                 <div class="menu">
                     <ul class="menu__list">
@@ -107,7 +108,7 @@
             <div class="header">
                 <div class="header__search">
                     <div class="header__search-wrapper">
-                        <i class="fa-solid fa-magnifying-glass"></i>
+                        <i class="menu__icon fa-solid fa-magnifying-glass"></i>
                         <input type="text" class="header__search-input" placeholder="Search video...">
                     </div>
                     <a href="" class="header__search-link">Explore</a>
@@ -128,7 +129,182 @@
                 </div>
             </div>
             <div class="content">
-                
+                <div class="slide-new-upload">
+                    <div class="header__slide">
+                        <label class="header__slide-heading">New Uploads</label>
+                        <div class="header__slide-next">
+                            <i class="header__slide-next-icon fa-solid fa-circle-chevron-left"></i>
+                            <i class="header__slide-next-icon fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="video-upload">
+                        <span class="video-upload__name">
+                            Van Life
+                        </span>
+                        <span class="video-upload__time">
+                            By Tees
+                        </span>
+                    </div>
+                </div>
+
+                <!-- Trending -->
+                <div class="slide-treding">
+                    <div class="header__slide">
+                        <label class="header__slide-heading">Treding</label>
+                        <div class="header__slide-next">
+                            <i class="header__slide-next-icon fa-solid fa-circle-chevron-left"></i>
+                            <i class="header__slide-next-icon fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="video-treding">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card-video">
+                                    <div class="video-avatar"></div>
+                                    <div class="card-video__play">
+                                        <i class="card-video__play-icon fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="card-video__description">
+                                    <div class="card-video__name">Minimal Trip</div>
+                                    <div class="card-video__by-name">By TuanP</div>
+                                    <div class="card-video__interactive">
+                                        <span class="card-video__interactive-view">116K views</span>
+                                        <span class="card-video__interactive-time">1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card-video">
+                                    <div class="video-avatar"></div>
+                                    <div class="card-video__play">
+                                        <i class="card-video__play-icon fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="card-video__description">
+                                    <div class="card-video__name">Minimal Trip</div>
+                                    <div class="card-video__by-name">By TuanP</div>
+                                    <div class="card-video__interactive">
+                                        <span class="card-video__interactive-view">116K views</span>
+                                        <span class="card-video__interactive-time">1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card-video">
+                                    <div class="video-avatar"></div>
+                                    <div class="card-video__play">
+                                        <i class="card-video__play-icon fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="card-video__description">
+                                    <div class="card-video__name">Minimal Trip</div>
+                                    <div class="card-video__by-name">By TuanP</div>
+                                    <div class="card-video__interactive">
+                                        <span class="card-video__interactive-view">116K views</span>
+                                        <span class="card-video__interactive-time">1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card-video">
+                                    <div class="video-avatar"></div>
+                                    <div class="card-video__play">
+                                        <i class="card-video__play-icon fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="card-video__description">
+                                    <div class="card-video__name">Minimal Trip</div>
+                                    <div class="card-video__by-name">By TuanP</div>
+                                    <div class="card-video__interactive">
+                                        <span class="card-video__interactive-view">116K views</span>
+                                        <span class="card-video__interactive-time">1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 <!-- Public -->
+                 <div class="slide-treding">
+                    <div class="header__slide">
+                        <label class="header__slide-heading">Treding</label>
+                        <div class="header__slide-next">
+                            <i class="header__slide-next-icon fa-solid fa-circle-chevron-left"></i>
+                            <i class="header__slide-next-icon fa-solid fa-circle-chevron-right"></i>
+                        </div>
+                    </div>
+                    <div class="video-treding">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="card-video">
+                                    <div class="video-avatar"></div>
+                                    <div class="card-video__play">
+                                        <i class="card-video__play-icon fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="card-video__description">
+                                    <div class="card-video__name">Minimal Trip</div>
+                                    <div class="card-video__by-name">By TuanP</div>
+                                    <div class="card-video__interactive">
+                                        <span class="card-video__interactive-view">116K views</span>
+                                        <span class="card-video__interactive-time">1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card-video">
+                                    <div class="video-avatar"></div>
+                                    <div class="card-video__play">
+                                        <i class="card-video__play-icon fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="card-video__description">
+                                    <div class="card-video__name">Minimal Trip</div>
+                                    <div class="card-video__by-name">By TuanP</div>
+                                    <div class="card-video__interactive">
+                                        <span class="card-video__interactive-view">116K views</span>
+                                        <span class="card-video__interactive-time">1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card-video">
+                                    <div class="video-avatar"></div>
+                                    <div class="card-video__play">
+                                        <i class="card-video__play-icon fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="card-video__description">
+                                    <div class="card-video__name">Minimal Trip</div>
+                                    <div class="card-video__by-name">By TuanP</div>
+                                    <div class="card-video__interactive">
+                                        <span class="card-video__interactive-view">116K views</span>
+                                        <span class="card-video__interactive-time">1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                            <div class="col-3">
+                                <div class="card-video">
+                                    <div class="video-avatar"></div>
+                                    <div class="card-video__play">
+                                        <i class="card-video__play-icon fa-solid fa-play"></i>
+                                    </div>
+                                    <div class="card-video__description">
+                                    <div class="card-video__name">Minimal Trip</div>
+                                    <div class="card-video__by-name">By TuanP</div>
+                                    <div class="card-video__interactive">
+                                        <span class="card-video__interactive-view">116K views</span>
+                                        <span class="card-video__interactive-time">1 hour ago</span>
+                                    </div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
